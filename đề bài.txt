@@ -1,0 +1,16 @@
+I.	Đề bài:
+Xây dựng chương trình quản lý đèn giao thông gồm các yêu cầu:
+Yêu cầu hệ thống gồm:
+-	Có 3 đèn tín hiệu: Red, Green, Yellow
+-	File cfg chứa thời gian chuyển giữa các đèn với nhau tương ứng t0, t1, t2, có thể chỉnh sửa trong run-time được
+Yêu cầu chức năng gồm:
+-	Chuyển lần lượt liên tục giữa các đèn sau các khoảng thời gian tương ứng t0, t1, t2.
+-	Song song đó, có thể hỗ trợ nhận lệnh từ người dùng để:
+o	Force Red: cố định đèn Red
+o	Force Green: cố định đèn Green
+o	Resume: Hủy lệnh Force*, trở về chạy liên tục
+o	Stop: Tắt hết đèn, chờ lệnh từ user
+o	Restart: đọc lại cfg và chạy lại từ đầu.
+Yêu cầu tài liệu:
+-	Vẽ design diagram and sequence của chương trình
+-	Video demo chạy thực tế.
